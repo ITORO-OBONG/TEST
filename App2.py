@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
-img = Image.open("STRONGYLOIDES SPP.JPG")
-st.sidebar.image(img.resize((500, 400)))
+#img = Image.open("STRONGYLOIDES SPP.JPG")
+#st.sidebar.image(img.resize((500, 400)))
 st.header("My Crazy App")
 st.subheader("This is my first application")
 st.number_input("input any number", step =1)
