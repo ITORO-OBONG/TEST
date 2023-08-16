@@ -11,6 +11,3 @@ st.checkbox("Do you agree")
 st.selectbox("Gender", ['Male', 'Female', 'Others'])
 st.select_slider("input", [5, 10, 15])
 st.sidebar.radio("Gender", ['Male', 'Female', 'Others'])
-
-
-pip install streamlit
